@@ -60,7 +60,7 @@ def print_linked_list(head):
         if current.next:
             print("->", end=" ")
         current = current.next
-    print()  # For a new line after the list is printed
+    print()
 
-# Assuming node1 is the head of the linked list
+
 print_linked_list(b)
