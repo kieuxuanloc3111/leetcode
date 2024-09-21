@@ -17,7 +17,7 @@ def longest_unique_substring(s):
             left += 1
 
     return s[start_index:start_index + max_len], max_len
-pr
+
 
 s = "abcbcgh"
 result, length = longest_unique_substring(s)
